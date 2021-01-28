@@ -6,7 +6,6 @@ export default class World {
   }
 
   public sayHello(el: HTMLElement | null): void {
-    console.log('hoge')
     if (el) {
       el.innerText = this.message
     }
