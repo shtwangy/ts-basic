@@ -1,5 +1,20 @@
 # Learn TypeScript
 
+## serve
+```
+npm start
+```
+
+## build
+```
+npm run build
+```
+
+## lint
+```
+npm run lint:fix
+```
+
 # Package Memo
 
 |Package|Description|
