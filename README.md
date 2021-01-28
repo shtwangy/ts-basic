@@ -9,3 +9,4 @@
 |webpack|複数のファイルを１つにまとめる|
 |webpack-cli|コマンドラインでWebpackを使う|
 |webpack-dev-server|Webpackのビルド<br>開発用サーバーの起動<br>ホットリロード（ファイル変更の自動検知と再読み込み）|
+|eslint-config-prettier|ESLintとPrettierを併用する際に使用する|
