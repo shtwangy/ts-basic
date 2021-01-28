@@ -10,3 +10,7 @@
 |webpack-cli|コマンドラインでWebpackを使う|
 |webpack-dev-server|Webpackのビルド<br>開発用サーバーの起動<br>ホットリロード（ファイル変更の自動検知と再読み込み）|
 |eslint-config-prettier|ESLintとPrettierを併用する際に使用する|
+|@typescript-eslint/eslint-plugin|ESLintでTypeScriptのチェックを行う|
+|@typescript-eslint/parser|ESLintでTypeScriptを解析するため|
+|husky|Gitコマンドにフックしてコマンドを実行する|
+|lint-staged|commitしたファイル（staging file）にlintを実行する|
