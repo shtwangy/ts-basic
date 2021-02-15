@@ -25,4 +25,20 @@ export default function objectSample() {
     name: 'United State of America',
   }
   console.log('Object object sample 2', country)
+
+  // オプショナルとreadonly
+  const bluesGuitarist: {
+    age: number
+    lastName: string
+    readonly firstName: string
+    gender?: string
+  } = {
+    age: 84,
+    lastName: 'Guy',
+    firstName: 'Buddy',
+  }
+  bluesGuitarist.gender = 'male'
+  bluesGuitarist.lastName = 'Clapton'
+  // bluesGuitarist.firstName = 'Eric'
+  console.log('Object object sample 3', bluesGuitarist)
 }
