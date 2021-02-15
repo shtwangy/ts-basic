@@ -41,4 +41,15 @@ export default function objectSample() {
   bluesGuitarist.lastName = 'Clapton'
   // bluesGuitarist.firstName = 'Eric'
   console.log('Object object sample 3', bluesGuitarist)
+
+  // インデックスシグネチャ
+  const capitals: {
+    [countryName: string]: string
+  } = {
+    Japan: 'Tokyo',
+    Korea: 'Seoul',
+  }
+  capitals.China = 'Beijing'
+  capitals.Canada = 'Ottawa'
+  console.log('Object object sample 4', capitals)
 }
