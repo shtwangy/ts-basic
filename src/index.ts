@@ -40,3 +40,6 @@ typeAliasSample()
 // 配列
 import ArraySample from "./array/array";
 ArraySample()
+
+import tupleSample from "./array/tuple";
+tupleSample()
